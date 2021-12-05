@@ -1,6 +1,6 @@
 package com.saif.newswithmvvm.api
 
-import com.saif.newswithmvvm.NewsRespons
+import com.saif.newswithmvvm.model.NewsRespons
 import com.saif.newswithmvvm.utils.Constant
 import retrofit2.Response
 import retrofit2.http.GET

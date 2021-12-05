@@ -2,7 +2,7 @@ package com.saif.newswithmvvm.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.saif.newswithmvvm.Article
+import com.saif.newswithmvvm.model.Article
 
 @Dao
 interface ArticleDAO {

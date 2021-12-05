@@ -1,4 +1,4 @@
-package com.saif.newswithmvvm
+package com.saif.newswithmvvm.model
 
 data class NewsRespons(
     val articles: List<Article>,
