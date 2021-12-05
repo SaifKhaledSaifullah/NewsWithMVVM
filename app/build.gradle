@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
     id "androidx.navigation.safeargs.kotlin"
 
 
@@ -10,9 +11,7 @@ plugins {
 
 android {
     compileSdk 31
-    buildFeatures {
-        viewBinding true
-    }
+
 
     defaultConfig {
         applicationId "com.saif.newswithmvvm"
